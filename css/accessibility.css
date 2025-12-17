@@ -1,0 +1,66 @@
+/* ===== Accessibility Improvements ===== */
+/* Focus styles for keyboard navigation */
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+/* Skip to main content link */
+.skip-to-main {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #667eea;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-to-main:focus {
+  top: 0;
+}
+
+/* Ensure sufficient color contrast */
+body {
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Make sure images have alt text (enforced in HTML) */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improved button focus */
+button,
+a.button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+button:focus,
+a.button:hover,
+a.button:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Screen reader only text */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
