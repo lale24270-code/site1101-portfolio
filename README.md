@@ -1,6 +1,6 @@
 # Lala Gadzhieva — Portfolio Website
 
-A modern, responsive portfolio website showcasing student projects, skills, and academic background.
+A modern, responsive portfolio website showcasing Lala Gadzhieva's projects, skills, and academic background.
 
 ## Project Overview
 
@@ -90,7 +90,7 @@ Media queries ensure optimal viewing experience on all screen sizes.
    - Use a local server (e.g., `python -m http.server` or Live Server extension)
 
 3. **Customize**
-   - Update student information in HTML files
+   - Update Lala Gadzhieva's information in HTML files
    - Modify GitHub and Codecademy profile URLs
    - Replace project images with your own
    - Customize colors in `css/styles.css`

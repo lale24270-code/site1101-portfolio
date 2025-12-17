@@ -63,8 +63,8 @@ site1101-portfolio/
 
 | Requirement | Points | Status |
 |-------------|--------|--------|
-| Home page about student | 10 | ✅ Complete |
-| About page about student | 10 | ✅ Complete |
+| Home page about Lala Gadzhieva | 10 | ✅ Complete |
+| About page about Lala Gadzhieva | 10 | ✅ Complete |
 | Projects page with 3+ projects | 10 | ✅ Complete |
 | No design issues | 10 | ✅ Complete |
 | Navigation bar & footer | 10 | ✅ Complete |
@@ -128,7 +128,7 @@ be55506 - Initial commit: Add HTML pages, CSS, JS, and project images
 
 To personalize this portfolio for your own use:
 
-1. **Update student name/info** - Edit all HTML files
+1. **Update Lala Gadzhieva name/info** - Edit all HTML files
 2. **Add your own projects** - Modify projects.html with your work
 3. **Replace project images** - Add actual project screenshots
 4. **Update social links** - Add your GitHub/Codecademy URLs
