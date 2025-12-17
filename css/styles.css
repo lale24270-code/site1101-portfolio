@@ -296,9 +296,18 @@ footer p {
     font-size: 1rem;
   }
 
+  nav {
+    padding: 0.8rem 0;
+  }
+
+  nav ul {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
   nav a {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
   }
 
   main {
@@ -308,10 +317,23 @@ footer p {
   section {
     padding: 1.5rem;
     margin-bottom: 1.5rem;
+    border-radius: 6px;
   }
 
   h2 {
     font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-image {
+    height: 200px;
+  }
+
+  .project-content {
+    padding: 1rem;
   }
 
   .social-links {
@@ -322,5 +344,47 @@ footer p {
     width: 45px;
     height: 45px;
     font-size: 1.2rem;
+  }
+
+  footer {
+    padding: 1.5rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+
+  .footer-links a {
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  nav ul {
+    gap: 0.3rem;
+  }
+
+  nav a {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  section {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
   }
 }
