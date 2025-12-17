@@ -1,4 +1,4 @@
-# Student Portfolio Website
+# Lala Gadzhieva — Portfolio Website
 
 A modern, responsive portfolio website showcasing student projects, skills, and academic background.
 
@@ -143,7 +143,7 @@ This project is open source and available under the MIT License.
 
 ## Author
 
-Student Portfolio  
+Lala Gadzhieva — Portfolio  
 Created: December 2025
 
 ---
