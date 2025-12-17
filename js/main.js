@@ -1,18 +1,7 @@
 // ===== Navigation Active State =====
 document.addEventListener('DOMContentLoaded', function() {
-  // Set active navigation link based on current page
-  const currentLocation = location.pathname.split('/').pop() || 'index.html';
-  const navLinks = document.querySelectorAll('nav a');
+  setActiveNav();
   
-  navLinks.forEach(link => {
-    const href = link.getAttribute('href');
-    if (href === currentLocation || (currentLocation === '' && href === 'index.html')) {
-      link.classList.add('active');
-    } else {
-      link.classList.remove('active');
-    }
-  });
-
   // Add smooth scrolling
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
@@ -26,7 +15,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Add animation to project cards on scroll
   observeProjectCards();
+  
+  // Initialize header animations
+  animateHeader();
 });
+
+// ===== Set Active Navigation Link =====
+function setActiveNav() {
+  const currentLocation = location.pathname.split('/').pop() || 'index.html';
+  const navLinks = document.querySelectorAll('nav a');
+  
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === currentLocation || (currentLocation === '' && href === 'index.html')) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
+  });
+}
+
+// ===== Animate Header on Load =====
+function animateHeader() {
+  const header = document.querySelector('header');
+  if (header) {
+    header.style.animation = 'fadeIn 0.8s ease';
+  }
+}
 
 // ===== Observe Project Cards for Animation =====
 function observeProjectCards() {

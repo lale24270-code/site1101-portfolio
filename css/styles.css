@@ -237,6 +237,15 @@ footer p {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* ===== Responsive Design ===== */
 /* Tablet (768px and up) */
 @media (min-width: 768px) {
