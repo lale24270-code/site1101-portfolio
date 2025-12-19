@@ -163,9 +163,9 @@ h3 {
 
 .project-image {
   width: 100%;
-  height: 250px;
-  object-fit: cover;
-  display: block;
+  max-height: 180px;
+  object-fit: contain;
+  background-color: #f4f4f4;
 }
 
 .project-content {
